@@ -1,0 +1,9 @@
+[project]
+name = "hardlinkfiles"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "icecream>=2.1.8",
+    "typer>=0.19.2",
+]
