@@ -22,7 +22,7 @@ def debug_output_control(debug: bool):
 
 @app.command()
 def create_hard_link_files(reference_folder_path: str, source_folder_path: str, link_folder_path: str,
-                           debug: bool = False):
+                           debug: bool = False, replace: bool = False):
     debug_output_control(debug)
     if not os.path.isdir(reference_folder_path):
         raise NotAFolderException(f"Reference path need to be folder.")
@@ -42,8 +42,11 @@ def create_hard_link_files(reference_folder_path: str, source_folder_path: str, 
             typer.echo(f"File {source_path} not found. skipping...")
             continue
         if os.path.isfile(link_path):
-            typer.echo(f"File {link_path} already exists. skipping...")
-            continue
+            if replace:
+                os.remove(link_path)
+            else:
+                typer.echo(f"File {link_path} already exists. skipping...")
+                continue
         os.link(source_path, link_path)
         typer.echo(f"{source_path} -> {link_path}")
 
