@@ -4,7 +4,7 @@ version = "0.0.1"
 description = "Add your description here"
 requires-python = "==3.13.*"
 dependencies = [
-    "cx-freeze>=8.4.1",
+    "cx-freeze>=8.6.4",
     "icecream>=2.1.8",
     "typer>=0.20.0",
 ]
