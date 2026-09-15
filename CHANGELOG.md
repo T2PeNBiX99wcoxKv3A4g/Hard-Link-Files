@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.0.8](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/compare/v0.0.7..v0.0.8) - 2026-09-15
+
+### 🐛 Bug Fixes
+
+- *(Workflow)* Add auto-comment for Dependabot PRs on merge conflicts with recreate logic - ([a0127c8](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/commit/a0127c8276d4bbd8b4462818ce25bf3cfcee3351))
+- *(Workflow)* Use dynamic branch reference instead of hardcoding `master` in release and pre-release workflows - ([023af3f](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/commit/023af3f449dd9b8392f82e7041904fccd7a553c6))
+
+### Action
+
+- Update version in `pyproject.toml` and update `CHANGELOG.md` - ([b4164f5](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/commit/b4164f5d1ce85ff494d8de3748aa00dd3958df59))
+
+
 ## [0.0.7](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/compare/v0.0.6..v0.0.7) - 2026-09-15
 
 ### 🐛 Bug Fixes
