@@ -3,7 +3,7 @@ name: Pre Release
 on:
   push:
     branches:
-      - fast
+      - "dev/**"
     paths-ignore:
       - 'README.md'
       - '.gitignore'
@@ -21,15 +21,9 @@ jobs:
       changelog: ${{ steps.git-cliff2.outputs.content }}
     steps:
       - name: Check-out repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
-
-      - name: Setup Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: '>=3.14'
-          cache: 'pip'
 
       - name: Pull changes
         run: git pull
@@ -39,16 +33,52 @@ jobs:
         uses: mathieudutour/github-tag-action@v6.2
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          pre_release_branches: "fast"
+          pre_release_branches: "dev"
           custom_release_rules: "fix:prerelease,feat:prerelease"
+
+      - name: Ensure tag exists
+        run: |
+          TAG="${{ steps.tag_version.outputs.new_tag }}"
+
+          if [ -z "$TAG" ]; then
+            echo "No tag generated!"
+            exit 1
+          fi
+
+          git fetch --tags
+
+          if git rev-parse "$TAG" >/dev/null 2>&1; then
+            echo "Tag $TAG already exists"
+          else
+            echo "Tag $TAG does not exist, creating..."
+
+            git tag "$TAG"
+            git push origin "$TAG"
+          fi
+
+      - name: Verify tag exists
+        run: |
+          git fetch --tags
+          if git rev-parse "${{ steps.tag_version.outputs.new_tag }}" >/dev/null 2>&1; then
+            echo "Tag exists"
+          else
+            echo "Tag missing!"
+            exit 1
+          fi
 
       - name: Clone `CSharp-Workflow-Scripts` Python script
         run: git clone https://github.com/T2PeNBiX99wcoxKv3A4g/CSharp-Workflow-Scripts.git .scripts
 
+      - name: Setup Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '>=3.14'
+          cache: 'pip'
+
       - name: Install Dependencies
         run: pip install -r .scripts/requirements.txt
 
-      - name: Change version in `Main.cs`
+      - name: Change version in `pyproject.toml`
         id: change_version
         run: python .scripts/change_version.py change-version ./pyproject.toml version ${{ steps.tag_version.outputs.new_tag }}
 
