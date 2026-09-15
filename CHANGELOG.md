@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.0.7](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/compare/v0.0.6..v0.0.7) - 2026-09-15
+
+### 🐛 Bug Fixes
+
+- Rename `reference` command to `link` for clarity and consistency - ([e6ab4f0](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/commit/e6ab4f00c64c085bca5c77e41ba7e301ddfd3d74))
+
+### Action
+
+- Update version in `pyproject.toml` and update `CHANGELOG.md` - ([a7f5645](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/commit/a7f564589b312931e3217a9b9e4f71fe59e891ee))
+
+
 ## [0.0.6](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/compare/v0.0.5..v0.0.6) - 2026-09-15
 
 ### 🐛 Bug Fixes
