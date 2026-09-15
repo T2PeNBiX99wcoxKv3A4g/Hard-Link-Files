@@ -1,5 +1,26 @@
 # Changelog
 
+## [0.0.2](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/compare/v0.0.1..v0.0.2) - 2026-09-15
+
+### 🐛 Bug Fixes
+
+- *(Workflow)* Move Dependabot auto-merge configuration to workflows folder - ([578f62a](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/commit/578f62a674242ec8b815a499481b158da6705037))
+- *(Workflow)* Add Dependabot auto-merge GitHub Action for automated PR handling - ([9fa6c6c](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/commit/9fa6c6c0ae049219c53b5f4145b32ef7fd3d75a0))
+
+### ⚙️ Miscellaneous Tasks
+
+- Update `.gitignore` to generalize `.dist` and `.build` directory patterns - ([106391b](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/commit/106391bcd6473e0b56ae322df71687af3f151989))
+- Update `.gitignore` to include `/main.dist/` and `/main.build/` directories - ([ee59403](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/commit/ee594035221635bffa1fd6f32e076faf4377022b))
+
+### Action
+
+- Update version in `pyproject.toml` and update `CHANGELOG.md` - ([13b2774](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/commit/13b2774a202278be7adb64ee92512956fbc99274))
+
+## New Contributors ❤️
+
+* @dependabot[bot] made their first contribution
+* @github-actions[bot] made their first contribution
+
 ## [0.0.1] - 2025-10-20
 
 ### ⛰️  Features
