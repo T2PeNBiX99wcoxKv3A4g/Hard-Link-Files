@@ -115,11 +115,11 @@ jobs:
       - name: Commit changed files
         run: "git commit -m 'Action: Update version in `pyproject.toml` and update `CHANGELOG.md`'"
 
-      - name: Fetch from master
-        run: git fetch origin master
+      - name: Fetch updates
+        run: git fetch origin ${{ github.ref_name }}
 
-      - name: Push code to master
-        run: git push origin master
+      - name: Push code
+        run: git push origin ${{ github.ref_name }}
 
       - name: Pull changes
         run: git pull
