@@ -3,3 +3,4 @@ uv.lock
 build
 /*.dist/
 /*.build/
+/.junie/
