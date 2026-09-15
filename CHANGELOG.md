@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.0.4](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/compare/v0.0.3..v0.0.4) - 2026-09-15
+
+### ⚙️ Miscellaneous Tasks
+
+- Pin `typer` dependency to version 0.27.2 in `pyproject.toml` ([#3](https://github.com//issues/3)) - ([48437b2](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/commit/48437b2d586984bb88916ecbe72f87ee1fbb33cf))
+
+### Action
+
+- Update version in `pyproject.toml` and update `CHANGELOG.md` - ([0c365bc](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/commit/0c365bc925473fbd3d05c839042e2443fed25d01))
+
+
 ## [0.0.3](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/compare/v0.0.2..v0.0.3) - 2026-09-15
 
 ### 🐛 Bug Fixes
