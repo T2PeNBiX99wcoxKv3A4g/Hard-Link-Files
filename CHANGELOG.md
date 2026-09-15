@@ -1,5 +1,25 @@
 # Changelog
 
+## [0.0.3](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/compare/v0.0.2..v0.0.3) - 2026-09-15
+
+### 🐛 Bug Fixes
+
+- *(Workflow)* Improve pre-release workflow with enhanced tagging logic, branch filters, and updated actions - ([98a56e2](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/commit/98a56e21bb613d27b3fcb10c9b150a592c253afd))
+- *(Workflow)* Update `actions/checkout` to v7 in release workflow - ([7ef5549](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/commit/7ef5549ef7abdffe46fbcbdd9e6f19f81b7362b7))
+- *(Workflow)* Update release workflow with improved tagging logic and adjusted branch filters - ([e01e52a](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/commit/e01e52ad5b82849216ab7bfe3b776bf7238a175d))
+- *(Workflow)* Enhance Dependabot auto-merge with improved checks and conditional actions - ([391e70f](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/commit/391e70f22ebfc04d0f8779ab1f1ef8e754f30b0a))
+
+### ⚙️ Miscellaneous Tasks
+
+- Pin `typer` dependency to version 0.27.2 in `pyproject.toml` ([#3](https://github.com//issues/3)) - ([9fafd9c](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/commit/9fafd9c8541f178535a8418ccb6dc2f07ac95f90))
+- Pin `cx-freeze` dependency to version 8.7.0 in `pyproject.toml` ([#2](https://github.com//issues/2)) - ([280b13c](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/commit/280b13c1393c5ab3e7ada7970a6aca13569acfb6))
+- Update `.gitignore` - ([dc467d6](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/commit/dc467d6af19a8efcad04bbc602098ba0bfe83eeb))
+
+### Action
+
+- Update version in `pyproject.toml` and update `CHANGELOG.md` - ([82adbbd](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/commit/82adbbdde58955cb37f4be79e4179a007f4ab3db))
+
+
 ## [0.0.2](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/compare/v0.0.1..v0.0.2) - 2026-09-15
 
 ### 🐛 Bug Fixes
