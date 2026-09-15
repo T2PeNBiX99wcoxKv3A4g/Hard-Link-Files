@@ -173,7 +173,7 @@ jobs:
         uses: thedoctor0/zip-release@0.7.6
         with:
           type: 'zip'
-          filename: 'URLClean-Windows.zip'
+          filename: 'Hard-Link-Files-Windows.zip'
           exclusions: '*.git* /*node_modules/* .editorconfig'
           directory: ${{ steps.build-dir.outputs.path }}
 
@@ -181,7 +181,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: release-windows
-          path: ${{ steps.build-dir.outputs.path }}/URLClean-Windows.zip
+          path: ${{ steps.build-dir.outputs.path }}/Hard-Link-Files-Windows.zip
 
   linux-release-build:
     name: Linux Latest Build
@@ -222,7 +222,7 @@ jobs:
         uses: thedoctor0/zip-release@0.7.6
         with:
           type: 'zip'
-          filename: 'URLClean-Linux.zip'
+          filename: 'Hard-Link-Files-Linux.zip'
           exclusions: '*.git* /*node_modules/* .editorconfig'
           directory: ${{ steps.build-dir.outputs.path }}
 
@@ -230,7 +230,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: release-linux
-          path: ${{ steps.build-dir.outputs.path }}/URLClean-Linux.zip
+          path: ${{ steps.build-dir.outputs.path }}/Hard-Link-Files-Linux.zip
 
   upload:
     name: Create Pre Release
