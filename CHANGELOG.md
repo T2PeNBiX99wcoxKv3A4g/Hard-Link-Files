@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.0.5](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/compare/v0.0.4..v0.0.5) - 2026-09-15
+
+### 🐛 Bug Fixes
+
+- *(Workflow)* Dynamically detect cx_Freeze build directories for Windows and Linux releases - ([647ea07](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/commit/647ea07e91f23e2a7e41393f5a3139d1d86992e0))
+- *(Workflow)* Dynamically detect cx_Freeze build directories in release workflow - ([83b1478](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/commit/83b14787eb734bdac80b904fb8ee25570157f93c))
+
+### Action
+
+- Update version in `pyproject.toml` and update `CHANGELOG.md` - ([252a53d](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/commit/252a53d7e25bbb15fd4c9152c4a780949ea43066))
+
+
 ## [0.0.4](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/compare/v0.0.3..v0.0.4) - 2026-09-15
 
 ### ⚙️ Miscellaneous Tasks
