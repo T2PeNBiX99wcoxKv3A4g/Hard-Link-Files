@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.0.6](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/compare/v0.0.5..v0.0.6) - 2026-09-15
+
+### 🐛 Bug Fixes
+
+- *(Workflow)* Update artifact filenames to match new project name - ([329d6ba](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/commit/329d6bad2a2b521d50e5a189e4e73c48dcb5b7a5))
+- *(Workflow)* Update release artifact filenames to align with new project naming convention - ([edbee9b](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/commit/edbee9b3c4bb52d10317f5b613fcc3671e0e379c))
+
+### Action
+
+- Update version in `pyproject.toml` and update `CHANGELOG.md` - ([9ed4e63](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/commit/9ed4e6372f2bd0af2f24e74bef8b07e4805f2efd))
+
+
 ## [0.0.5](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/compare/v0.0.4..v0.0.5) - 2026-09-15
 
 ### 🐛 Bug Fixes
