@@ -50,7 +50,7 @@ def create_hard_link_files(reference_folder_path: str, source_folder_path: str, 
 
 
 @app.command()
-def reference(reference_folder_path: str, source_folder_path: str, link_folder_path: str, debug: bool = False):
+def link(reference_folder_path: str, source_folder_path: str, link_folder_path: str, debug: bool = False):
     debug_output_control(debug)
     create_hard_link_files(reference_folder_path, source_folder_path, link_folder_path)
 
