@@ -18,6 +18,4 @@ jobs:
     uses: T2PeNBiX99wcoxKv3A4g/Release-Workflows/.github/workflows/python_uv_release.yml@main
     with:
       filename: Hard-Link-Files
-      version_keyword: version
-      version_file_path: ./pyproject.toml
       prerelease: true
