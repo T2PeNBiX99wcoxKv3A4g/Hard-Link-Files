@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.0.10](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/compare/v0.0.9..v0.0.10) - 2026-09-16
+
+### 🐛 Bug Fixes
+
+- *(Workflow)* Replace inline release and pre-release logic with reusable workflow references - ([26fe03a](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/commit/26fe03a46678e8e84ee0f5346d239c485ab022e7))
+
+### Action
+
+- Update version in `pyproject.toml` and update `CHANGELOG.md` - ([e5cab1a](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/commit/e5cab1a763ace2eeb523a97c0338ee54c4647ee1))
+
+
 ## [0.0.9](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/compare/v0.0.8..v0.0.9) - 2026-09-16
 
 ### 🐛 Bug Fixes
