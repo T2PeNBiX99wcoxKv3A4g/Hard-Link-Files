@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.0.9](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/compare/v0.0.8..v0.0.9) - 2026-09-16
+
+### 🐛 Bug Fixes
+
+- *(Workflow)* Include Dependabot auto-merge workflow in release and pre-release triggers - ([c5f4821](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/commit/c5f4821bf104925c2a1668f4570cf7f786b56cd5))
+- *(Workflow)* Simplify Dependabot auto-merge workflow by using reusable workflow reference - ([9e6009c](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/commit/9e6009c3d9325b42a2dde8c80faf3b645c9a80f9))
+
+### Action
+
+- Update version in `pyproject.toml` and update `CHANGELOG.md` - ([a2a102c](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/commit/a2a102cbcce76c3ce64fd812d07348d56c986492))
+
+
 ## [0.0.8](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/compare/v0.0.7..v0.0.8) - 2026-09-15
 
 ### 🐛 Bug Fixes
