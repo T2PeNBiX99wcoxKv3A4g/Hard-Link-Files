@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.0.11](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/compare/v0.0.10..v0.0.11) - 2026-09-16
+
+### 🐛 Bug Fixes
+
+- *(Workflow)* Remove unused versioning inputs from release and pre-release workflows - ([9506656](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/commit/950665629d750b40872595cedd4d0dca8a997274))
+- *(Workflow)* Update ignored paths in release and pre-release workflows for consistency and wildcard support - ([711b01a](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/commit/711b01a08493d99b55ededeac9e128803151e2a0))
+
+### Action
+
+- Update version in `pyproject.toml` and update `CHANGELOG.md` - ([a2bab5d](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/commit/a2bab5d2815f1648741efa950987e855e599b775))
+
+
 ## [0.0.10](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/compare/v0.0.9..v0.0.10) - 2026-09-16
 
 ### 🐛 Bug Fixes
