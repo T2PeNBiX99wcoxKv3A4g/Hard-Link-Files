@@ -5,10 +5,10 @@ on:
     branches:
       - "dev/**"
     paths-ignore:
-      - 'README.md'
-      - '.gitignore'
-      - 'LICENSE'
-      - '.github/workflows/dependabot-auto-merge.yml'
+      - "README.md"
+      - ".gitignore"
+      - "LICENSE*"
+      - ".github/workflows/dependabot-auto-merge.yml"
 
 permissions:
   contents: write
