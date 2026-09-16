@@ -1,5 +1,17 @@
 # Changelog
 
+## [unreleased]
+
+### ⚙️ Miscellaneous Tasks
+
+- Remove placeholder file `tmp` - ([0896fc2](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/commit/0896fc2234f90d2c53abbe61d07823be4c84d10a))
+- Add placeholder file `tmp` - ([17c3530](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/commit/17c3530bd1f4b8b9a430dd0e0ae14446d7039b39))
+
+### Action
+
+- Update version in `pyproject.toml` and update `CHANGELOG.md` - ([a883c6e](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/commit/a883c6eba8b1183084f73e65c7cd6a0379b8a3c9))
+
+
 ## [0.0.11](https://github.com/T2PeNBiX99wcoxKv3A4g/Hard-Link-Files/compare/v0.0.10..v0.0.11) - 2026-09-16
 
 ### 🐛 Bug Fixes
